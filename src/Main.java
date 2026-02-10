@@ -107,7 +107,7 @@ public class Main {
                 case 4:
                     ResultSet resultSet=showAllBook();
                     while(resultSet.next()) {
-                        System.out.println(resultSet.getString("BookName").toUpperCase() + " by " + resultSet.getString("Writer").toUpperCase());
+                        System.out.println(resultSet.getString("bookName").toUpperCase() + " by " + resultSet.getString("Writer").toUpperCase());
                     }
                     break;
                 case 5:
